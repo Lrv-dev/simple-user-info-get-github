@@ -6,5 +6,4 @@
 pip install requests
 ```
 
-Made by Lucas Rangel with ❤️
-
+Made with ♥ by Lucas Rangel
