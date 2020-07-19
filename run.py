@@ -8,14 +8,14 @@ json_response = loads(request.text)
 
 
 print("""
-Username: {}
-Bio: {}
-Location: {}
-Avatar-url: {}
-Mail: {}
-Twitter: {}
-Number of public repos: {}
-Number of public gists: {}
-Following: {}
-Followers: {}
-""".format(json_response['login'], json_response['bio'], json_response['location'],json_response['avatar_url'],json_response['email'],json_response['twitter_username'],json_response['public_repos'],json_response['email'],json_response['following'],json_response['followers']))
+Username: {0[login]}
+Bio: {0[bio]}
+Location: {0[location]}
+Avatar-url: {0[avatar_url]}
+Mail: {0[email]}
+Twitter: {0[twitter_username]}
+Number of public repos: {0[public_repos]}
+Number of public gists: {0[public_gists]}
+Following: {0[following]}
+Followers: {0[followers]}
+""".format(json_response))
