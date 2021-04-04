@@ -14,8 +14,8 @@ Location: {0[location]}
 Avatar-url: {0[avatar_url]}
 Mail: {0[email]}
 Twitter: {0[twitter_username]}
+Followers: {0[followers]}
 Number of public repos: {0[public_repos]}
 Number of public gists: {0[public_gists]}
 Following: {0[following]}
-Followers: {0[followers]}
 """.format(json_response))
